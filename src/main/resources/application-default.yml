@@ -1,0 +1,20 @@
+server:
+  port: 2001
+
+spring:
+  application:
+    name: myhystrixdashboard
+
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: http://localhost:8088/eureka/
+
+#feign.hystr
+#hystrix:
+#  command:
+#    default:
+#      execution:
+#        isolation:
+#          thread:
+#            timeout-in-milliseconds: 5000
